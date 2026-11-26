@@ -32,7 +32,7 @@ jobs:
           gradle-version: '8.7'
 
       - name: Extract Project
-        run: unzip VORTEX_Android_Project.zip -d .
+        run: unzip VORTEX_Android_Project_with_icon.zip -d .
 
       - name: Build APK
         run: gradle -p VORTEX_Android_Project assembleDebug
